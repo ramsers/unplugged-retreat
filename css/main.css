@@ -380,17 +380,121 @@ aside .email-input {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+  @media only screen and (min-width: 768px) {
+    /* Tablet Styles */
+
+    /* Homepage Styles */
+
+    /* Header Styles */
+
+    header .content-wrapper {
+      width: 90%;
+      flex-flow: row;
+    }
+  }
+
+
+  /* Aside Styles */
+  aside .content-wrapper{
+    flex-flow: row nowrap;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  aside .form-description{
+    width: 35%;
+  }
+  aside .form{
+    width: 35%;
+    margin-right: 50px;
+  }
+
+
+  /* Features Style */
+ .features article {
+   width: 30%;
+   margin: 30px 45px;
+  }
+
+
+  /* Reviews Styles */
+  .reviews .content-wrapper {
+    flex-flow: row nowrap;
+  }
+
+  .reviews article div {
+    width: 35%;
+  }
+
+  footer .content-wrapper {
+    width: 75%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  footer .social {
+    margin-right: 130px;
+  }
+
+  /* About Page Styles */
+  .mission {
+    
+  }
+  .mission-content {
+    width: 90%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  .mission-content p {
+    width: 90%;
+  }
+
+  .mission-content p:nth-of-type(1) {
+    margin-right: 45px;
+  }
+  
+  .contact-section .content-wrapper {
+    width: 100%;
+    flex-flow: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-section .content-wrapper h2 {
+    width: 66%;
 }
 
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
+.contact-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
+.contact-content h4:nth-of-type(1) {
+  margin-bottom: 10px;
+}
+
+
+.faq .content-wrapper {
+  justify-content: space-between;
+}
+
+.faq-content {
+  flex-basis: 40%;
+}
+
+.faq h2 {
+  width: 100%;
+}
+  @media only screen and (min-width: 1200px) {
+    /* Desktop Styles Here */
+  }
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
