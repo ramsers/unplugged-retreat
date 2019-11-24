@@ -494,6 +494,29 @@ aside .email-input {
 }
   @media only screen and (min-width: 1200px) {
     /* Desktop Styles Here */
+
+    /* Header Styles */
+
+    header nav ul {
+      padding: 23px 175px;
+  }
+
+    /* Features Styles */
+    .features article {
+      width: 25%;
+      margin: 30px 45px;
+     }
+
+     .features h2 {
+       width: 80%;
+     }
+
+     /* About Styles */
+
+     .mission h2 {
+       width: 80%;
+     }
+
   }
 /* ==========================================================================
    Print styles.
