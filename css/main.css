@@ -321,17 +321,39 @@ aside .email-input {
 
 
 /* Reviews */
+
 .reviews {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
   background: #2a423a;
-  color: #e2e3ed;
-  /* background: url('../img/reviews-img.jpg') center no-repeat;
-  background-size: cover; */
+  color: #e2e3ed; 
 }
 
-.reviews .content-wrapper article {
+.reviews h2 {
+  margin-bottom: 40px;
+}
+
+.reviews h3 {
+  width: 55%;
+  margin: -10px 0;
+}
+
+.reviews .content-wrapper article figure {
+  width: 65%;
+  padding-right: 12px;
+}
+/* .reviews {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  background: #2a423a;
+  color: #e2e3ed; 
+  /* background: url('../img/reviews-img.jpg') center no-repeat;
+  background-size: cover;
+} */
+
+/* .reviews .content-wrapper article {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -342,7 +364,7 @@ aside .email-input {
   justify-content: center;
   align-items: center;
   flex-flow: column wrap;
-}
+} */
 
 
 
@@ -372,14 +394,14 @@ aside .email-input {
 
 
 
-.reviews h2 {
+/* .reviews h2 {
   margin-bottom: 40px;
 }
 
 .reviews h3 {
  width: 55%;
  margin: 20px 0;
-}
+} */
 
 
 /* -------------------------- About Section ---------------------------- */
@@ -597,12 +619,21 @@ input[type=button] {
 
 
   /* Reviews Styles */
+
+  .reviews article {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .reviews article div {
+    width: 49%;
+  }
   /* .reviews article {
     display: flex;
     justify-content: space-between;
   } */
 
-  .reviews .content-wrapper article{
+  /* .reviews .content-wrapper article{
     display: flex;
       justify-content: center;
       align-items: center;
@@ -628,7 +659,7 @@ input[type=button] {
 .reviews h3 {
  width: 55%;
  margin: 20px 0;
-}
+} */
 
   footer .content-wrapper {
     width: 75%;
@@ -744,7 +775,11 @@ input[type=button] {
     }
     
     /* Reviews */
+
     .reviews article div {
+      width: 42%;
+    }
+    /* .reviews article div {
       width: 42%;
     }
 
@@ -765,7 +800,7 @@ input[type=button] {
       justify-content: center;
       align-items: center;
       flex-flow: row nowrap;
-  }
+  } */
   
     /* ==========================================================================
     About Page
