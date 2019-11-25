@@ -287,6 +287,12 @@ aside .email-input {
 
 /* Features Area */
 
+.features i {
+	font-size: 3.75em;
+  margin-bottom: 40px;
+  color: #e2e3ed;
+}
+
 .features {
   display: flex;
   justify-content: center;
