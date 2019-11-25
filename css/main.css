@@ -229,6 +229,11 @@ footer {
   color: #e2e3ed;
   text-align: center;
 }
+
+footer .social h4 {
+  margin-top: 6px;
+}
+
 footer .content-wrapper {
   width: 55%;
   margin: 50px 0;
@@ -250,6 +255,11 @@ footer .social-icons p {
 }
  footer .copyright {
    margin: 20px 0;
+ }
+
+ .footer-content {
+  padding-right: 50px;
+  margin-bottom: 25px;
  }
 /* -------------------------------- Mobile Styles - Homepage ---------------------------------- */
 
@@ -449,6 +459,9 @@ aside .email-input {
   /* padding: 51px 20px 49px 20px; */
 }
 
+/* .contact-content h4 {
+  margin-top: 0;
+} */
 .contact-content p {
   margin: 0;
 }
