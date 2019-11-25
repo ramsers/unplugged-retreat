@@ -248,6 +248,10 @@ footer p {
   margin: 0;
 }
 
+footer .fab {
+  font-size: 1.25em;
+}
+
 footer .social-icons p {
   display: flex;  
   justify-content: center;
