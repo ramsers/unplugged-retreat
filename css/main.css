@@ -98,7 +98,18 @@ textarea {
    Author's custom styles
    ========================================================================== */
     /* General Styles */
- 
+    .outer-div {
+      display: flex;
+      flex-flow: row wrap;
+      width: 90%;
+  }
+  
+  .inner-div :nth-of-type(1) {
+      background: #000;
+  }
+  .inner-div :nth-of-type(7) {
+      background: rbg(70, 20, 10);
+  }
 html {
 	font-size: 16px;
 }
